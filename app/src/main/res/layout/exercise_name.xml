@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/exercise_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/white"
+        android:elevation="2dp">
+        <!-- created by ChatGPT -->
+        <TableRow>
+            <TextView android:text="@string/weight" android:padding="4dp" android:background="@android:color/darker_gray" />
+            <TextView android:id="@+id/weight1" android:padding="4dp" android:background="@android:color/white" />
+            <TextView android:text="@string/reps" android:padding="4dp" android:background="@android:color/darker_gray" />
+            <TextView android:id="@+id/reps1" android:padding="4dp" android:background="@android:color/white" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="@string/weight" android:padding="4dp" android:background="@android:color/darker_gray" />
+            <TextView android:id="@+id/weight2" android:padding="4dp" android:background="@android:color/white" />
+            <TextView android:text="@string/reps" android:padding="4dp" android:background="@android:color/darker_gray" />
+            <TextView android:id="@+id/reps2" android:padding="4dp" android:background="@android:color/white" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="@string/weight" android:padding="4dp" android:background="@android:color/darker_gray" />
+            <TextView android:id="@+id/weight3" android:padding="4dp" android:background="@android:color/white" />
+            <TextView android:text="@string/reps" android:padding="4dp" android:background="@android:color/darker_gray" />
+            <TextView android:id="@+id/reps3" android:padding="4dp" android:background="@android:color/white" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="@string/weight" android:padding="4dp" android:background="@android:color/darker_gray" />
+            <TextView android:id="@+id/weight4" android:padding="4dp" android:background="@android:color/white" />
+            <TextView android:text="@string/reps" android:padding="4dp" android:background="@android:color/darker_gray" />
+            <TextView android:id="@+id/reps4" android:padding="4dp" android:background="@android:color/white" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/notes"
+        android:text="@string/notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp" />
+</LinearLayout>
+
+

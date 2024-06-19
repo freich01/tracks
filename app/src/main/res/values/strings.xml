@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">track´s</string>
+    <string-array name="namenWerte">
+
+    </string-array>
+
+    <string-array name="timeFrameValues">
+
+    </string-array>
+
+    <string-array name="typeValues">
+tim
+    </string-array>
+    <string name="testbutton">Test</string>
+    <string name="Switched">Switched</string>
+    <string name="wop">Your workout plans</string>
+    <string name="pushbutton">Push</string>
+    <string name="title_activity_pull">PullActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+
+
+    <string name="lorem_ipsum">
+
+    </string>
+    <string name="pull">Pull</string>
+    <string name="dwdd" />
+    <string name="TextLastTrainedPush">Last trained Monday, 03/02/24</string>
+    <string name="TextLastTrainedPull">Last trained Monday, 03/02/24</string>
+    <string name="TextLastTrainedLegs">Last trained Monday, 03/02/24</string>
+    <string name="add_exercise">Add Exercise</string>
+    <string name="TextViewMultiTrainExplanation">* When enabling MultiTrain, your exercise will get saved to all of your workout plans.\nThis can be useful if you want to perform an exercise on multiple training days (e.g. Abs training)</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="Afefe" />
+    <string name="AboutExplanation">This application was created as a final project for the \"CS 50: An introduction to computer science\" course and attempts to solve the hassle of having to manage your workout plans with the notes app build in to your device or other insufficient alternatives.</string>
+    <string name="ContactCreator">Contact details:\nName: Finn Reich\nE-Mail: finn_reich@web.de</string>
+    <string name="fr" />
+    <string name="AboutVersion">Version: 1.0.0</string>
+    <string name="login">Login</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="enter">Enter</string>
+    <string name="switch_to_registration">Switch to registration</string>
+    <string name="please_confirm_your_email_address_in_the_mail_we_have_sent_you">Please confirm your email address in the mail we have sent you.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="note_the_values_of_an_exercise_will_not_get_saved_to_statistics_when_you_add_it_values_are_added_to_statistics_every_time_you_click_on_an_exercise_and_hit_save_if_you_save_an_exercise_on_multiple_occasions_in_one_day_the_most_recent_values_will_get_added_to_statistics_for_this_day">Note: The values of an exercise will not get saved to statistics when you add it. Values are added to statistics every time you click on an exercise and hit \'Save\'. If you save an exercise on multiple occasions in one day, the most recent values will get added to statistics for this day.</string>
+    <string name="about">About</string>
+    <string name="workout_plan_name">Workout Plan Name</string>
+    <string name="save">Save</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="delete">Delete</string>
+    <string name="textview">TextView</string>
+    <string name="weight">Weight</string>
+    <string name="reps">Reps</string>
+    <string name="notes">Notes:</string>
+    <string name="reset_password">Reset password</string>
+    <string name="plus">+</string>
+    <string name="multitrain">MultiTrain*</string>
+    <string name="registration">Registration</string>
+    <string name="switch_to_login">Switch to login</string>
+    <string name="settings">Settings</string>
+    <string name="resend_verification_email">Resend verification Email</string>
+    <string name="logout">Logout</string>
+    <string name="change_e_mail_address">Change E-Mail address</string>
+    <string name="change_password">Change password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="workout_plan">Workout plan:</string>
+    <string name="timeframe">Timeframe:</string>
+    <string name="type">Type:</string>
+    <string name="home">Home</string>
+    <string name="statistics">Statistics</string>
+    <string name="verify_email_address">Verify email address</string>
+    <string name="done">Done</string>
+    <string name="delete_set">Delete Set</string>
+    <string name="workout_plan_main">Workout Plan</string>
+    <string name="date_last_trained">Date last trained: -</string>
+</resources>

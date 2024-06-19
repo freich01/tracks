@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="0dp">
+
+
+    <TextView
+        android:id="@+id/textViewWorkoutPlanName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/arialroundedmtboldregular"
+        android:text="Hello!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#004F8B"
+        android:textSize="50sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewWorkoutPlanName"
+        android:clipToPadding="false"
+        android:paddingBottom="80dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/add_exercise"
+        android:src="@drawable/ic_add" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/buttonHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/buttonStatistics"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintWidth_percent="0.5"
+            app:cornerRadius="0dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/arialroundedmtboldregular"
+            app:backgroundTint="@color/lightgrey"
+            />
+
+
+
+        <Button
+            android:id="@+id/buttonStatistics"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/statistics"
+            app:layout_constraintLeft_toRightOf="@id/buttonHome"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintWidth_percent="0.5"
+            app:cornerRadius="0dp"
+            android:fontFamily="@font/arialroundedmtboldregular"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/lightgrey"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

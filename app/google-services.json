@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "824206980255",
+    "project_id": "login-registration-tracks",
+    "storage_bucket": "login-registration-tracks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824206980255:android:0a37138583fd90cb975eaa",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationsddddddddddddddd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_WY1uj2ltb4q73LkoInFz0hwn_c-gFQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

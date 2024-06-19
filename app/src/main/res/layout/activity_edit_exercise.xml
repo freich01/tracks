@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_exercise_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/exercise_name" />
+
+    <LinearLayout
+        android:id="@+id/sets_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_exercise_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical" />
+
+    <EditText
+        android:id="@+id/edit_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sets_container"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_notes"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_save"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/delete" />
+
+    <TextView
+        android:id="@+id/textViewDateLastTrained"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_delete"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/label_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_exercise_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="0dp"
+        android:fontFamily="@font/arialroundedmtboldregular"
+        android:text="@string/weight"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/label_reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_exercise_name"
+        android:layout_alignLeft="@id/label_weight"
+        android:layout_marginLeft="190dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/arialroundedmtboldregular"
+        android:text="@string/reps"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/label_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sets_container"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="2dp"
+        android:fontFamily="@font/arialroundedmtboldregular"
+        android:text="@string/notes"
+        android:textSize="20sp" />
+</RelativeLayout>
+
+

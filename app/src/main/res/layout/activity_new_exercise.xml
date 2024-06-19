@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_exercise_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercise_name"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/sets_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_below="@id/edit_exercise_name"
+        android:layout_marginBottom="16dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_add_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"
+        android:layout_below="@id/sets_container"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/label_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notes"
+        android:textSize="20sp"
+        android:fontFamily="@font/arialroundedmtboldregular"
+        android:layout_below="@id/button_add_set"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_add_set"
+        android:layout_toEndOf="@id/label_notes"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/label_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_exercise_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="0dp"
+        android:fontFamily="@font/arialroundedmtboldregular"
+        android:text="@string/weight"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/label_reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_exercise_name"
+        android:layout_alignLeft="@id/label_weight"
+        android:layout_marginLeft="175dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/arialroundedmtboldregular"
+        android:text="@string/reps"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_below="@id/edit_notes"
+        android:layout_centerHorizontal="true"/>
+
+    <Switch
+        android:id="@+id/switchMultiTrain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edit_notes"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="26dp"
+        android:layout_toEndOf="@id/button_add_set"
+        android:fontFamily="@font/arialroundedmtboldregular"
+        android:text="@string/multitrain"
+        android:textColorHighlight="#004F8B"
+        android:textColorLink="#004F8B"
+        android:textSize="20sp"
+        android:trackTint="@drawable/newtrack"
+        android:thumbTint="@drawable/newthumb"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/textViewMultiTrainExplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_save"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/arialroundedmtboldregular"
+        android:textAlignment="center"
+        android:visibility="visible"
+        android:text="@string/TextViewMultiTrainExplanation"/>
+
+
+</RelativeLayout>
+
+
+
+
+
